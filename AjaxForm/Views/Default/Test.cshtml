@@ -1,0 +1,10 @@
+﻿@model IEnumerable<AjaxForm.Models.TestViewModel>
+
+@foreach(var item in Model)
+{
+    <div style="border: 1px solid black;">
+        <p>ID: @item.ID</p>
+        <p>Name: @item.Name</p>
+    </div>
+}
+
